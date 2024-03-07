@@ -63,15 +63,3 @@ app.get("/:formId/filteredResponses", async (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
-
-
-/*
-[
-    test filter :
-    {
-        "id": "bE2Bo4cGUv49cjnqZ4UnkW",
-        "condition": "equals",
-        "value": "Johnny"
-    }
-]
-*/
